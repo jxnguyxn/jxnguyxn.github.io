@@ -1,0 +1,566 @@
+/*--------------------FOR TEXT STYLE----------------------------*/
+
+/* Section titles */
+h1 {  
+    font-family: 'Roboto', sans-serif;
+    font-size: 37px;  
+}
+
+/* Skills title */
+h2 {
+    font-family: helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+}
+
+/* Paragraph text */
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;    
+}
+
+p3 {
+    color: white
+}
+
+/*----------------CREATE THE FIXED HEADER-----------------------*/
+
+/* https://www.w3schools.com/css/css_navbar.asp */
+
+.logo {
+    float: left;
+    padding-left: 40px;
+}
+
+/* Code copied from: 
+        https://www.w3schools.com/css/css_navbar.asp
+        Author: css-tricks.com
+        Name: Fixed Navigation Bar
+        Description: navigation bar stay at the top or the bottom of the page, even when the user scrolls the page
+        Date retrieved: March 11, 2018 */
+
+/* Copied code starts */
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 0px;
+    overflow: hidden;   
+    background-color: whitesmoke;
+    opacity: 0.90;
+}
+
+li a {
+    font-family: 'Lato', helvetica, sans-serif;
+    opacity: 1.0;
+    float: right;    
+    color: #B500BA;
+    text-align: right;
+    padding: 15px 50px 10px 0;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Change colour when hovering over header */
+a.nav:hover, a.nav:active{
+    color: fuchsia;
+}
+/* Copied code ends */
+
+/* ---------------------FOR LINKS----------------------------- */
+
+/* Remove underline */
+a {
+    text-decoration: none;
+}
+
+/* Hover for external links */
+b3:hover {
+    color: fuchsia;
+}
+
+/* Code copied from: 
+        https://css-tricks.com/snippets/html/open-link-in-a-new-window/
+        Author: css-tricks.com
+        Name: Open Link in a New Window
+        Description: Opens a link in a new tab
+        Date retrieved: March 13, 2018 */
+
+/* Copied code starts */
+b3 {
+    target-name:new;
+    target-position:front;
+}
+/* Copied code ends */
+
+/* LinkedIn and Email Link */
+
+a:link {
+    color: black;
+}
+
+/* link visited */
+a:visited {
+    color: purple;
+}
+
+/* mouse hovers link */
+a:hover {
+    color: fuchsia;
+}
+
+/* link selected */
+a:active {
+    color: blue;
+}
+
+/*-----------------------INTRO PAGE-----------------------------*/
+
+/* Main Title Page */
+h4 {
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-size: 100px;
+    color: black;
+    margin: 0px 0px 0px 0px; 
+}
+
+h5 {
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-size: 50px;
+    color: black;
+    margin: 0px 0px 0px 0px; 
+}
+
+h6 {    
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: fuchsia;
+    font-style: italic;
+    margin: 10px 0px 0px 0px; 
+}
+
+h7{
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: black;
+    font-style: italic;
+    margin: 30px 0px 0px 0px; 
+}
+
+h8 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 25px;
+}
+
+.main {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 300px 0 320px 0;
+    padding-top: 300px;
+    color: black;    
+}
+
+/*-----------------------PROJECT PAGE---------------------------*/
+
+/* Project titles */
+h3 {
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    color: #B500BA;
+    margin: 0px 0px 0px 0px; 
+}
+
+#projects {
+    background-image: url("images/background1.svg");
+    background-size: 800px;
+    background-position: 230px;
+    background-repeat: no-repeat;
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 50px 300px 50px 300px;
+}
+
+.UX {
+    text-align: left;
+    padding: 60px 300px 100px 300px;
+}
+
+#ux {
+    float: left;
+    vertical-align: text-bottom;
+    padding: 0 30px 0 300px;
+}
+
+.myuxproject  {
+    background-image: url("images/background2.svg");
+    background-size: 900px;
+    background-position: 220px 80px;
+    background-repeat: no-repeat;
+}
+
+/* Project name */
+b2 {  
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 100;
+    color: black;
+    font-style: italic;
+}
+
+.mybrandingproject {
+    padding: 100px;
+    background-image: url("images/background3.svg");
+    background-size:1050px;
+    background-repeat: no-repeat;
+    background-position: 200px;
+}
+
+.branding {  
+    text-align: left;
+    padding: 115px 200px 115px 200px;
+}
+
+#poster {
+    float: right;
+    vertical-align: text-bottom;
+    padding: 0 200px 0 120px;
+}
+
+/*----------------------ABOUT ME PAGE---------------------------*/
+
+/* Self picture */
+#jessica {
+    float: left;
+    padding: 100px 30px 0 0;
+}
+
+#about {
+    float: left;
+    padding: 80px 0 0 300px;
+}
+
+.aboutMe {
+    padding: 190px 300px 170px 300px;
+    background-image: url("images/background4.svg");
+    background-size:1050px;
+    background-repeat: no-repeat;
+    background-position: 200px 40px;
+}
+
+/* Resume box */
+#resume {
+    border: 0px solid;
+    background-color: azure; 
+    width: 8%;
+    opacity: 0.50;
+    
+    /* Code copied from: 
+        https://www.w3schools.com/css/css3_shadows.asp
+        Author: w3schools.com
+        Name: Cards
+        Description: Use the box-shadow property to create paper-like cards
+        Date retrieved: March 12, 2018 */
+
+/* Copied code starts */
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+/* Copied code ends */
+
+    text-align: center;
+    position: absolute;
+    top: 2592px;
+    right: 445px;  
+}
+
+b:hover {
+    color: fuchsia;
+    font-size: 110%; 
+}
+
+/*-----------------------SKILLS TABLE--------------------------*/
+
+.skills {
+    font-family: 'Roboto', helvetica, sans-serif;
+    padding: 100px 300px 100px 300px;
+    
+/* add background to skills page */
+    background-image: url("images/background5.svg");
+    background-size: 1050px;
+    background-repeat: no-repeat;
+    background-position: 200px;
+}
+
+td {
+    font-weight: 100;
+    text-align: left;
+    font-size: 14px;
+    padding: 8px 0 8px 145px;
+}
+
+th {
+    font-size: 16px;
+    color: black; 
+    padding-left: 100px;
+}
+
+    /* Code copied from: 
+        https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_fade
+        Author: w3schools.com
+        Name: Image Overlay Fade
+        Description: create a fading overlay effect to an image, on hover
+        Date retrieved: March 11, 2018 */
+
+/* Copied code starts */
+
+.container {
+    position: relative;
+    width: 48%;
+}
+
+.text {
+    color: white;
+    font-size: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/* Photoshop */
+.ps {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: deepskyblue;
+}
+
+.container:hover .ps {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box1 {
+    background-color: deepskyblue;
+    border: 0px solid;   
+    width: 580px;
+    height: 30px;
+    opacity: 0.1; 
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/* Illustrator */
+.ai {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: goldenrod;
+}
+
+.container:hover .ai {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box2 {
+    background-color: goldenrod;
+    border: 0px solid;   
+    width: 580px;
+    height: 30px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/* After Effects */
+.ae {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: mediumpurple;
+}
+
+.container:hover .ae {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box3 {
+    background-color: mediumpurple;
+    border: 0px solid;   
+    width: 580px;
+    height: 30px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/* PremierePro */
+.pr {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: fuchsia;
+}
+
+.container:hover .pr {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box4 {
+    background-color: fuchsia;
+    border: 0px solid;   
+    width: 580px;
+    height: 30px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/* Invision */
+.in {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: mediumvioletred;
+}
+
+.container:hover .in {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box5 {
+    background-color: mediumvioletred;
+    border: 0px solid;   
+    width: 580px;
+    height: 30px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+    left: 60px;
+}
+
+/* Balsamiq */
+.bal {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: black;
+}
+
+.container:hover .bal {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box6 {
+    background-color: black;
+    border: 0px solid;   
+    width: 590px;
+    height: 30px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+}
+
+/* Sketch */
+.ske {
+    position: absolute;   
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .3s ease;
+    background-color: orange;
+}
+
+.container:hover .ske {
+    opacity: 0.8;
+}
+
+/* Transparency */
+#box7 {
+    background-color: orange;
+    border: 0px solid;   
+    width: 600px;
+    height: 30px;
+    opacity: 0.1;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+}
+
+/* Copied code ends */
+
+/*----------------------CONTACT PAGE---------------------------*/
+
+/* Contact link text */
+p2 {
+    font-family: 'Roboto', helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 100; 
+}
+
+.contact {   
+    padding: 50px 300px 0 300px;
+}
+
+#contact {   
+    padding: 0 400px 400px 400px;
+}
+
+/* add background to contact page */
+.mycontactpage {
+    background-image: url("images/background6.svg");
+    background-size: 1450px;
+    background-repeat: no-repeat;
+    background-position: 0px ;  
+}
+
+/* Center icons */
+#group {
+    padding: 20px 110px 0 110px;
+}
+
+.linkto {
+    padding: 20px;
+    float: left;  
+}
+
+#icon {
+    padding: 0 30px 0 30px;
+}
